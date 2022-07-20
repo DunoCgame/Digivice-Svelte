@@ -54,7 +54,7 @@ function ClickImage(name){
  </script>
 
 <div class="Informacion">
-                <button on:click={ButtonLeft}  class="button1"  >A</button>
+                <button on:click={ButtonLeft}  class="button1 icon-arrow-left"  ></button>
                 <div class="optionContainner" id='l'>
                      <!---->
                                { #each posts as post (post.name)}
@@ -65,7 +65,7 @@ function ClickImage(name){
                    
                         
                 </div>
-                <button on:click={ButtonRight} class="button2">B</button>
+                <button on:click={ButtonRight} class="button2 icon-arrow-right "></button>
         </div>
 
 <style>
